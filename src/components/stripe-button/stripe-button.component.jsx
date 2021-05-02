@@ -8,7 +8,7 @@ const StripeCheckoutButton=({price,clearWholeCart})=>{
     const publishableKey='pk_test_51ImlWESJIxOGWWBfVJYJdZkP2p6g7qENGOQDo4eKJ1DHPl80wnAN02N6bkXAGL3AVdVlZSI9F9IhEDKYMGzO6nED003KOcg2Pm'
 
     const onToken=token=>{
-        console.log(token);
+        // console.log(token);
         alert('Payment Successful');
         clearWholeCart();
     }
