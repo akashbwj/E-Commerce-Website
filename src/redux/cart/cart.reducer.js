@@ -13,7 +13,7 @@ const cartReducer=(state=INITIAL_STATE,action)=>{
                 ...state,
                 hidden:!state.hidden
             }
-        case CartActionTypes.CLEAR_WHOLE_CART:
+        case CartActionTypes.CLEAR_CART:
             return{
                 ...state,
                 cartItems:[]
